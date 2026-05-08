@@ -1,0 +1,331 @@
+[
+  {
+    "accuracy": 0.9696585173279192,
+    "balanced_accuracy": 0.5,
+    "precision_serious": 0.0,
+    "recall_serious": 0.0,
+    "f1_serious": 0.0,
+    "roc_auc": 0.5,
+    "pr_auc": 0.03034148267208076,
+    "confusion": [
+      [
+        34387,
+        0
+      ],
+      [
+        1076,
+        0
+      ]
+    ],
+    "model": "MajorityBaseline",
+    "feature_set": "n/a"
+  },
+  {
+    "accuracy": 0.5480077827594958,
+    "balanced_accuracy": 0.5801226618773867,
+    "precision_serious": 0.04061443932411674,
+    "recall_serious": 0.6143122676579925,
+    "f1_serious": 0.07619157397268168,
+    "roc_auc": 0.6103444740020733,
+    "pr_auc": 0.043918958295336846,
+    "confusion": [
+      [
+        18773,
+        15614
+      ],
+      [
+        415,
+        661
+      ]
+    ],
+    "model": "LogisticRegression",
+    "feature_set": "time_only",
+    "threshold": 0.5
+  },
+  {
+    "accuracy": 0.9683895891492541,
+    "balanced_accuracy": 0.5006961138702996,
+    "precision_serious": 0.058823529411764705,
+    "recall_serious": 0.0027881040892193307,
+    "f1_serious": 0.005323868677905945,
+    "roc_auc": 0.567405992668406,
+    "pr_auc": 0.0372001074907132,
+    "confusion": [
+      [
+        34339,
+        48
+      ],
+      [
+        1073,
+        3
+      ]
+    ],
+    "model": "RandomForest",
+    "feature_set": "time_only",
+    "threshold": 0.5
+  },
+  {
+    "accuracy": 0.7900346840368835,
+    "balanced_accuracy": 0.5568254753487609,
+    "precision_serious": 0.04719931760022747,
+    "recall_serious": 0.30855018587360594,
+    "f1_serious": 0.08187422934648582,
+    "roc_auc": 0.5976515747986806,
+    "pr_auc": 0.04332921258283606,
+    "confusion": [
+      [
+        27685,
+        6702
+      ],
+      [
+        744,
+        332
+      ]
+    ],
+    "model": "XGBoost",
+    "feature_set": "time_only",
+    "threshold": 0.5
+  },
+  {
+    "accuracy": 0.5462030849053944,
+    "balanced_accuracy": 0.5737903540101121,
+    "precision_serious": 0.03977934416181428,
+    "recall_serious": 0.6031598513011153,
+    "f1_serious": 0.07463630613535736,
+    "roc_auc": 0.609751886006026,
+    "pr_auc": 0.043827863828709464,
+    "confusion": [
+      [
+        18721,
+        15666
+      ],
+      [
+        427,
+        649
+      ]
+    ],
+    "model": "LogisticRegression",
+    "feature_set": "time_weather",
+    "threshold": 0.5
+  },
+  {
+    "accuracy": 0.9692073428643939,
+    "balanced_accuracy": 0.49976735394189664,
+    "precision_serious": 0.0,
+    "recall_serious": 0.0,
+    "f1_serious": 0.0,
+    "roc_auc": 0.5887567684381461,
+    "pr_auc": 0.04278813470725433,
+    "confusion": [
+      [
+        34371,
+        16
+      ],
+      [
+        1076,
+        0
+      ]
+    ],
+    "model": "RandomForest",
+    "feature_set": "time_weather",
+    "threshold": 0.5
+  },
+  {
+    "accuracy": 0.839438287792911,
+    "balanced_accuracy": 0.554841456900534,
+    "precision_serious": 0.05251937984496124,
+    "recall_serious": 0.25185873605947956,
+    "f1_serious": 0.08691468890314304,
+    "roc_auc": 0.5881439239109013,
+    "pr_auc": 0.04444796254985291,
+    "confusion": [
+      [
+        29498,
+        4889
+      ],
+      [
+        805,
+        271
+      ]
+    ],
+    "model": "XGBoost",
+    "feature_set": "time_weather",
+    "threshold": 0.5
+  },
+  {
+    "accuracy": 0.5521529481431351,
+    "balanced_accuracy": 0.5858612466261186,
+    "precision_serious": 0.04143954410307235,
+    "recall_serious": 0.6217472118959108,
+    "f1_serious": 0.07770034843205575,
+    "roc_auc": 0.6150151246964493,
+    "pr_auc": 0.04432263296971516,
+    "confusion": [
+      [
+        18912,
+        15475
+      ],
+      [
+        407,
+        669
+      ]
+    ],
+    "model": "LogisticRegression",
+    "feature_set": "time_weather_spatial",
+    "threshold": 0.5
+  },
+  {
+    "accuracy": 0.9691227476524829,
+    "balanced_accuracy": 0.5006240200784792,
+    "precision_serious": 0.08695652173913043,
+    "recall_serious": 0.0018587360594795538,
+    "f1_serious": 0.003639672429481347,
+    "roc_auc": 0.5951107517397374,
+    "pr_auc": 0.04332794317339103,
+    "confusion": [
+      [
+        34366,
+        21
+      ],
+      [
+        1074,
+        2
+      ]
+    ],
+    "model": "RandomForest",
+    "feature_set": "time_weather_spatial",
+    "threshold": 0.5
+  },
+  {
+    "accuracy": 0.8298226320390266,
+    "balanced_accuracy": 0.5543846241495906,
+    "precision_serious": 0.05089657670711827,
+    "recall_serious": 0.2611524163568773,
+    "f1_serious": 0.08519023798696378,
+    "roc_auc": 0.592445754387816,
+    "pr_auc": 0.04369378636277868,
+    "confusion": [
+      [
+        29147,
+        5240
+      ],
+      [
+        795,
+        281
+      ]
+    ],
+    "model": "XGBoost",
+    "feature_set": "time_weather_spatial",
+    "threshold": 0.5
+  },
+  {
+    "accuracy": 0.5498688774215379,
+    "balanced_accuracy": 0.5851336195932089,
+    "precision_serious": 0.041289209342453934,
+    "recall_serious": 0.6226765799256505,
+    "f1_serious": 0.0774432179390857,
+    "roc_auc": 0.6153926610330718,
+    "pr_auc": 0.04459003916116082,
+    "confusion": [
+      [
+        18830,
+        15557
+      ],
+      [
+        406,
+        670
+      ]
+    ],
+    "model": "LogisticRegression",
+    "feature_set": "full_with_cluster",
+    "threshold": 0.5
+  },
+  {
+    "accuracy": 0.9690945492485126,
+    "balanced_accuracy": 0.5010596233360861,
+    "precision_serious": 0.11538461538461539,
+    "recall_serious": 0.0027881040892193307,
+    "f1_serious": 0.0054446460980036296,
+    "roc_auc": 0.5934522972338795,
+    "pr_auc": 0.0442866531283678,
+    "confusion": [
+      [
+        34364,
+        23
+      ],
+      [
+        1073,
+        3
+      ]
+    ],
+    "model": "RandomForest",
+    "feature_set": "full_with_cluster",
+    "threshold": 0.5
+  },
+  {
+    "accuracy": 0.8374362011110171,
+    "balanced_accuracy": 0.543905930020455,
+    "precision_serious": 0.04800462695199537,
+    "recall_serious": 0.23141263940520446,
+    "f1_serious": 0.07951460961200703,
+    "roc_auc": 0.5884390017062512,
+    "pr_auc": 0.04216649722762134,
+    "confusion": [
+      [
+        29449,
+        4938
+      ],
+      [
+        827,
+        249
+      ]
+    ],
+    "model": "XGBoost",
+    "feature_set": "full_with_cluster",
+    "threshold": 0.5
+  },
+  {
+    "accuracy": 0.9694047316921862,
+    "balanced_accuracy": 0.5003192802285553,
+    "precision_serious": 0.09090909090909091,
+    "recall_serious": 0.0009293680297397769,
+    "f1_serious": 0.0018399264029438822,
+    "roc_auc": 0.5827951050923432,
+    "pr_auc": 0.04043485174668906,
+    "confusion": [
+      [
+        34377,
+        10
+      ],
+      [
+        1075,
+        1
+      ]
+    ],
+    "model": "XGBoost+SMOTE",
+    "feature_set": "full_with_cluster",
+    "threshold": 0.5
+  },
+  {
+    "accuracy": 0.9500042297605955,
+    "balanced_accuracy": 0.5096716760883635,
+    "precision_serious": 0.05605095541401274,
+    "recall_serious": 0.040892193308550186,
+    "f1_serious": 0.047286405158516925,
+    "roc_auc": 0.5884390017062512,
+    "pr_auc": 0.04216649722762134,
+    "confusion": [
+      [
+        33646,
+        741
+      ],
+      [
+        1032,
+        44
+      ]
+    ],
+    "model": "XGBoost+ThresholdTuned",
+    "feature_set": "full_with_cluster",
+    "threshold": 0.6917101144790649
+  }
+]
